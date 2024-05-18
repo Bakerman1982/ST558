@@ -1,0 +1,23 @@
+Cloning a Repo & Working in RStudio
+We don’t want to use github.com web interface as that is inefficient.
+
+We can clone the repo (i.e. download the entire repo locally).
+
+Repo main page has a green button. Click on that.
+
+Can download a zip and unzip it to an appropriate folder
+
+Better to clone the repo via the URL and use RStudio! Open RStudio,
+
+go to File –> new project
+select from version control
+choose Git
+paste in the repo link
+select a directory to save this repo in
+hit create project!
+Now have the files locally and this associates an R project with a git repo!
+
+Try it with my repo here: https://github.com/jbpost2/ZScores.git
+
+You won’t have access to push files to this repository though!
+Try this out on your own! Create your own repo on github. Then try to download it as an R project.
